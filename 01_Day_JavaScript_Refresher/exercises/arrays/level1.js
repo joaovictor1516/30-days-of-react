@@ -37,5 +37,30 @@ for(let i of itCompanies){
     }
 }
 
-const itCompaniesSort = itCompanies.sort();
-console.log(itCompaniesSort);
+console.log(itCompanies.sort());
+
+console.log(itCompanies.reverse());
+ 
+console.log(itCompanies.slice(0, 3));
+
+console.log(itCompanies.slice(itCompanies.length - 3, itCompanies.length));
+
+console.log(itCompanies.slice(1, itCompanies.length - 1));
+
+itCompanies.shift();
+console.log(itCompanies);
+
+itCompanies.splice(Math.ceil(itCompanies.length / 2),1);
+console.log(itCompanies);
+
+itCompanies.pop();
+console.log(itCompanies);
+
+for(let i = itCompanies.length; i >= 0; i--){
+    if(itCompanies[0] === undefined){
+        break;
+    }
+    itCompanies.pop();
+}
+
+console.log(itCompanies);

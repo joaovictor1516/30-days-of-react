@@ -1983,15 +1983,15 @@ console.log(copyPerson.hasOwnProperty('score'))
 ##### Exercises: Level 1
 
 1. Create an empty object called dog
-1. Print the the dog object on the console
-1. Add name, legs, color, age and bark properties for the dog object. The bark property is a method which return _woof woof_
-1. Get name, legs, color, age and bark value from the dog object
-1. Set new properties the dog object: breed, getDogInfo
+2. Print the the dog object on the console
+3. Add name, legs, color, age and bark properties for the dog object. The bark property is a method which return _woof woof_
+4. Get name, legs, color, age and bark value from the dog object
+5. Set new properties the dog object: breed, getDogInfo
 
 ##### Exercises: Level 2
 
 1. Find the person who has many skills in the users object.
-1. Count logged in users,count users having greater than equal to 50 points from the following object.
+2. Count logged in users,count users having greater than equal to 50 points from the following object.
 
    ````js
    const users = {
@@ -2048,11 +2048,11 @@ console.log(copyPerson.hasOwnProperty('score'))
 
    ````
 
-1. Find people who are MERN stack developer from the users object
-1. Set your name in the users object without modifying the original users object
-1. Get all keys or properties of users object
-1. Get all the values of users object
-1. Use the countries object to print a country name, capital, populations and languages.
+3. Find people who are MERN stack developer from the users object
+4. Set your name in the users object without modifying the original users object
+5. Get all keys or properties of users object
+6. Get all the values of users object
+7. Use the countries object to print a country name, capital, populations and languages.
 
 ##### Exercises: Level 3
 

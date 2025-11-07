@@ -1,0 +1,10 @@
+const dog = {};
+console.log(dog);
+dog.name = "Titã";
+dog.legs = 4;
+dog.color = "black";
+dog.age = 17;
+dog.bark = function (){return "woof woof"}();
+dog.breed = "Weimaraner";
+dog.getDogInfo = function (){return {name: dog.name, breed: dog.breed, color: dog.color, age: dog.age, legs: dog.legs}}();
+console.log(dog.getDogInfo);

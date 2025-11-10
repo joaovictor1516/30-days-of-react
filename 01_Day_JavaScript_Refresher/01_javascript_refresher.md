@@ -2057,7 +2057,7 @@ console.log(copyPerson.hasOwnProperty('score'))
 ##### Exercises: Level 3
 
 1. Create an object literal called _personAccount_. It has _firstName, lastName, incomes, expenses_ properties and it has _totalIncome, totalExpense, accountInfo,addIncome, addExpense_ and _accountBalance_ methods. Incomes is a set of incomes and its description and expenses is a set of incomes and its description.
-2. \*\*\*\* Questions:2, 3 and 4 are based on the following two arrays:users and products ()
+Questions:2, 3 and 4 are based on the following two arrays:users and products ()
 
 ```js
 const users = [
@@ -2134,9 +2134,9 @@ const products = [
 ]
 ```
 
-Imagine you are getting the above users collection from a MongoDB database.
-a. Create a function called signUp which allows user to add to the collection. If user exists, inform the user that he has already an account.  
- b. Create a function called signIn which allows user to sign in to the application
+2. Imagine you are getting the above users collection from a MongoDB database.
+  a. Create a function called signUp which allows user to add to the collection. If user exists, inform the user that he has already an account.  
+  b. Create a function called signIn which allows user to sign in to the application
 
 3. The products array has three elements and each of them has six properties.
    a. Create a function called rateProduct which rates the product
